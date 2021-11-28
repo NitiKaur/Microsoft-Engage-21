@@ -65,7 +65,7 @@ Only the person who has created a particular classroom can update the stream by 
 	
 		secretOrKey=secret
 
-	4. Open the encoding.js file as node_modules->whatwg-url->lib->encoding.js. Add the              follwing on top-
+	4. Open the encoding.js file as node_modules->whatwg-url->lib->encoding.js. Add the following on top if it throws an error-
         
 	        "use strict";
                 const {TextDecoder, TextEncoder} = require("util");
