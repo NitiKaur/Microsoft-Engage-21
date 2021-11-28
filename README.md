@@ -93,6 +93,15 @@ Only the person who has created a particular classroom can update the stream by 
        Name : Your Name
        email : Your email-id
        password : Your password
+
+### Features 
+
+![Screenshot from 2021-11-28 20-21-19](https://user-images.githubusercontent.com/46062965/143779868-3b60992a-5cc5-40d2-a3f4-079bd133e54b.png)
+
+### Flow
+
+![Screenshot from 2021-11-28 20-07-51](https://user-images.githubusercontent.com/46062965/143779863-fe8038ab-b680-4cf7-9c29-6ab201e2ce4e.png)
+!
        
 
 
