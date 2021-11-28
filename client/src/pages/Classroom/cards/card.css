@@ -1,0 +1,25 @@
+.cardClass{
+    margin-bottom: 55px;
+}
+.list{
+    border-bottom: 1px dashed #333;
+    text-transform: capitalize;
+    margin-top: 9px;
+}
+.card:hover{
+    box-shadow: #333 0px 0px 6px 2px;
+    transition: 0.2s;
+}
+ol{
+    list-style: none;
+}
+.bell_ico{
+ padding-top: 5px;
+}
+.data{
+    background-color: #333;
+    margin-left: 10px;
+    font-size: 14px;
+    position: relative;
+    top:-2px;
+}

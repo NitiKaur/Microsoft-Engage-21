@@ -1,0 +1,25 @@
+.classUl{
+    list-style: none;
+}
+
+.classUl li {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-editing{
+    position: fixed;
+    z-index: 1000;
+    display: absolute;
+    bottom:50;
+    right: 0;
+    margin-right:40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.plusico{
+    padding: 10px;
+    border-radius: 100%;
+}

@@ -1,0 +1,86 @@
+.mainClassWork{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-color: #333;
+    color: white;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapercave.com/wp/wp3332365.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+.classText{
+    position: absolute;
+    bottom: 0;
+    right: 30;
+    color: white;
+    font-weight: 900;
+    z-index: 5;
+}
+.meetLinkPaste{
+    border:0px;
+    border-bottom: 1px solid green;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.meetLinkPaste:focus, .meetLinkPaste textarea:focus, .meetLinkPaste select:focus{
+    outline: none;
+}
+.classMessageArea{
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    padding: 9px;
+}
+.classMessageArea:focus, .classMessageArea textarea:focus, .classMessageArea select:focus {
+    outline: 0px;
+}
+.messageAreaAll{
+    border: 2px dashed #333;
+    padding-top: 8px;
+    border-radius: 15px;
+}
+.messageAreaAll:hover {
+    border: 2px solid #333;
+    transition: 2s;
+}
+.meassageAreaBtn{
+    list-style: none;
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 8;
+    padding-bottom: 8px;
+    border-top:0px solid #3336;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.meassageAreaBtn li{
+    float: left;
+    display: inline-block;
+    padding: 0px 6px;
+}
+.imgIcon{
+    font-size: 20px;
+}
+
+.message{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+   }
+   .message:focus, .message:focus, select:focus{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}

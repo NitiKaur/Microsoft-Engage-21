@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 0px;
+    background-color: silver;
+  }
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg,#292c2f, #333);
+    border-radius: 0px;
+      -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+  }
+  .paddingMainTop{
+    margin-top: 130px;
+  }
