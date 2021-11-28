@@ -51,11 +51,26 @@ Only the person who has created a particular classroom can update the stream by 
 
 2. Open Terminal and enter the following commands
 
-	cd server
+	1. cd server
 
-	npm install
+	2. npm install
+	
+	3. create a .env file with the help of the following command
+	
+		nano .env
+	
+	Now, add the following in your file
+	
+		mongoURI=mongodb+srv://NitiKaur:Harmeet1niti@cluster0.j117.mongodb.net/testdb
+	
+		secretOrKey=secret
 
-	npm start
+	4. Open the encoding.js file as node_modules->whatwg-url->lib->encoding.js. Add the              follwing on top-
+        
+	        "use strict";
+                const {TextDecoder, TextEncoder} = require("util");
+                
+	5. npm start
 
 3. Open second terminal	and enter the following commands
 
