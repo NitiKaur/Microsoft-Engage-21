@@ -79,6 +79,21 @@ Only the person who has created a particular classroom can update the stream by 
 	npm install
 
 	npm start
+	
+	
+### Sample user credentials-
+
+#### Login
+
+	Username : test@test.com
+	Password : test@test.com
+	
+#### Register
+ 
+       Name : Your Name
+       email : Your email-id
+       password : Your password
+       
 
 
 ### Future Releases
